@@ -11,21 +11,18 @@ h1, h2{
 }
 .Fizz{
   color: rgb(255, 145, 0);
-  transform: rotate(-40deg);
-  position: relative;
-  left: -40px;
-  top: 48px;
+  
   font-size: 36px;
   
+}
+.title{
+  margin-top: 40px;
 }
 .headers{
   margin: auto;
 }
 .Buzz{
-  position: relative;
-  top: -20px;
-  left: 40px;
-  transform: rotate(40deg);
+
   font-size: xx-large;
   color: red;
 }
@@ -56,6 +53,14 @@ button:hover{
   margin-left: 30vh;
   margin-right: 30vh;
 }
+tr{
+  background: rgba(255, 255, 255, 0.21);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.1px);
+  -webkit-backdrop-filter: blur(8.1px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
 th{
   font-size: xx-large;
   padding: 20px;
@@ -66,4 +71,13 @@ th{
 }
 th:hover{
   color: #00FF6C;
+}
+.animate__animated.animate__zoomIn{
+  --animate-duration: 4s ;
+}
+.animate__animated.animate__rollIn{
+  --animate-duration: 3s ;
+}
+.animate__animated.animate__bounceIn{
+  --animate-duration: 2s ;
 }

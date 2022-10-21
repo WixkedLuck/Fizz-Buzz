@@ -2,80 +2,32 @@ import React, { useRef, useState } from 'react';
 import './App.css';
 import "./fizzbuzz";
 function App() {
-  const [firstNum, setFirstnum] = useState(0);
- 
+  const [firstNum, setFirstnum] = useState(3);
+  const [secondNum, setsecondnum] = useState(5);
   console.log(firstNum);
   return (
     
     <div className="App">
      
-      <h1>Fizz Buzz is a very simple programming task, asked in software developer job interviews...</h1>
+      <h1 className='animate__animated animate__zoomIn title'>Fizz Buzz is a very simple programming task, asked in software developer job interviews...</h1>
       <div className="headers">
-        <h1 className="Fizz">Fizz</h1>
-        <h1 className="Buzz">Buzz</h1>
-        <h2 class="enter">Please enter two numbers:</h2>
+        <h1 className="Fizz animate__animated animate__backInDown animate__delay-5s">Fizz</h1>
+        <h1 className="Buzz animate__animated animate__backInUp animate__delay-5s ">Buzz</h1>
+        <h2 className="enter  animate__animated animate__fadeInLeft animate__delay-5s">Please enter two numbers:</h2>
       </div>
 
       <div className="textinput">
-        <input type="number" id="fnum" value={firstNum} onChange={e=>setFirstnum(e.target.value)}></input>
-        <input type="number" id="secnum" ></input>
-        <button type="button" id="submit">Submit</button>
+        <input className="animate__animated animate__bounceIn animate__delay-5s" type="number" id="fnum" value={firstNum} onChange={e=>setFirstnum(e.target.value)}></input>
+        <input className="animate__animated animate__bounceIn animate__delay-5s" type="number" id="secnum" value={secondNum} onChange={e=>setsecondnum(e.target.value)} ></input>
+        {/* <button type="button" id="submit">Submit</button> */}
       </div>
 
-      <div class="numbers">
+      <div className="numbers">
       <table>
-  <tr>
-    {Array.from(Array(50)).map((num, i) => <th>{i + 1}</th>)}
-    <th>1</th>
-    <th>2</th>
-    <th>3</th>
-    <th>4</th>
-    <th>5</th>
-    <th>6</th>
-    <th>7</th>
-    <th>8</th>
-    <th>9</th>
-    <th>10</th>
-    <th>11</th>
-    <th>12</th>
-    <th>13</th>
-    <th>14</th>
-    <th>15</th>
-    <th>16</th>
-    <th>17</th>
-    <th>18</th>
-    <th>19</th>
-    <th>20</th>
-    <th>21</th>
-    <th>22</th>
-    <th>23</th>
-    <th>24</th>
-    <th>25</th>
-    <th>26</th>
-    <th>27</th>
-    <th>28</th>
-    <th>29</th>
-    <th>30</th>
-    <th>31</th>
-    <th>32</th>
-    <th>33</th>
-    <th>34</th>
-    <th>35</th>
-    <th>36</th>
-    <th>37</th>
-    <th>38</th>
-    <th>39</th>
-    <th>40</th>
-    <th>41</th>
-    <th>42</th>
-    <th>43</th>
-    <th>44</th>
-    <th>45</th>
-    <th>46</th>
-    <th>47</th>
-    <th>48</th>
-    <th>49</th>
-    <th>50</th>
+  <tr className='animate__animated animate__rollIn animate__delay-2s'>
+   
+    {Array.from(Array(100)).map((num, i) => <th>{i + 1}</th>)}
+  
 
   </tr>
   </table>
