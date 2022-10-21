@@ -1,7 +1,10 @@
-
+import React, { useRef, useState } from 'react';
 import './App.css';
-
+import "./fizzbuzz";
 function App() {
+  const [firstNum, setFirstnum] = useState(0);
+ 
+  console.log(firstNum);
   return (
     
     <div className="App">
@@ -14,7 +17,7 @@ function App() {
       </div>
 
       <div className="textinput">
-        <input type="number" id="fnum" ></input>
+        <input type="number" id="fnum" value={firstNum} onChange={e=>setFirstnum(e.target.value)}></input>
         <input type="number" id="secnum" ></input>
         <button type="button" id="submit">Submit</button>
       </div>
@@ -22,6 +25,7 @@ function App() {
       <div class="numbers">
       <table>
   <tr>
+    {Array.from(Array(50)).map((num, i) => <th>{i + 1}</th>)}
     <th>1</th>
     <th>2</th>
     <th>3</th>
