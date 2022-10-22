@@ -35,8 +35,8 @@ GitHub Pages: https://backstock-23.herokuapp.com/
 
 
 ## Test
-
 - N/A <br/>
+
 _Screenshots of page_
 ![FizzBuzz](./my-app/public/images/FizzBuzz.PNG)
 [FizzBuzzVideo.webm](https://user-images.githubusercontent.com/91163168/197347996-a1270160-fb73-4adb-8d7e-cbfff41057df.webm)
