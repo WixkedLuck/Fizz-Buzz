@@ -23,7 +23,7 @@
 
 GitHub URL: https://github.com/WixkedLuck/Fizz-Buzz
 
-GitHub Pages: https://backstock-23.herokuapp.com/
+GitHub Pages: https://wixkedluck.github.io/Fizz-Buzz/
 
 ## License
 
