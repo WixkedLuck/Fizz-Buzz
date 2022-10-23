@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Fizz-Buzz/static/css/main.0d196625.css",
+    "main.js": "/Fizz-Buzz/static/js/main.edd1171b.js",
+    "index.html": "/Fizz-Buzz/index.html",
+    "main.0d196625.css.map": "/Fizz-Buzz/static/css/main.0d196625.css.map",
+    "main.edd1171b.js.map": "/Fizz-Buzz/static/js/main.edd1171b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d196625.css",
+    "static/js/main.edd1171b.js"
+  ]
+}
