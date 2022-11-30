@@ -90,3 +90,16 @@ th:hover{
 .animate__animated.animate__bounceIn{
   --animate-duration: 2s ;
 }
+
+@media screen and (max-width: 980px) {
+  .numbers{
+    margin: 0 !important; 
+    
+   
+ 
+  }
+  th{
+    font-size: 16px;
+   
+  }
+}
